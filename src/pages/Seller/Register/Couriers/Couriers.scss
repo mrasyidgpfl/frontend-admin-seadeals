@@ -1,0 +1,23 @@
+.couriers_container {
+  background-color: #F6F6F6;
+  width: 100vw;
+  padding-top: 125px;
+  font-size: 25px;
+  justify-content: center;
+
+  .couriers_card {
+    padding: 50px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+
+    .form-group {
+      display: grid;
+      justify-content: center;
+
+      select {
+        width: 200px;
+      }
+    }
+  }
+
+}

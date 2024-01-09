@@ -1,0 +1,36 @@
+.seller-register_container {
+  background-color: #F6F6F6;
+  height: 100vh;
+  padding: 150px;
+
+  .registration-form-card {
+    background-color: #FFFFFF;
+    padding: 10px 50px 15px 50px;
+
+    .header {
+      color: #1E46A2;
+      border-bottom: 2px solid #F6F6F6;
+      margin-bottom: 2rem;
+      text-align: left;
+
+      .header-text {
+        margin: 1rem 0 1rem 0;
+      }
+    }
+
+    .input-groups {
+      border-bottom: 2px solid #F6F6F6;
+
+      .input-group {
+        text-align: left;
+        margin-bottom: 1rem;
+      }
+    }
+
+    .button-group {
+      display: flex;
+      justify-content: flex-end;
+      margin-top: 15px;
+    }
+  }
+}

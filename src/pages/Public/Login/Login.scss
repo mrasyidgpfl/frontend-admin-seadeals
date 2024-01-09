@@ -1,0 +1,70 @@
+.login_container {
+  font-family: 'Montserrat', serif;
+  font-style: normal;
+  padding: 175px 50px 50px 50px;
+  background-color: #f6f6f6;
+  height: 100vh;
+  text-decoration: none;
+
+  .forms_container {
+    display: flex;
+    justify-content: center;
+
+    .hr-sect {
+      font-size: 12px;
+      display: flex;
+      flex-basis: 100%;
+      align-items: center;
+      color: rgba(0, 0, 0, 0.35);
+      margin: 1rem 0px;
+      &::before {
+        content: "";
+        flex-grow: 1;
+        background: rgba(0, 0, 0, 0.35);
+        height: 1px;
+        font-size: 0px;
+        line-height: 0px;
+        margin: 0px 8px;
+      }
+      &::after {
+        content: "";
+        flex-grow: 1;
+        background: rgba(0, 0, 0, 0.35);
+        height: 1px;
+        font-size: 0px;
+        line-height: 0px;
+        margin: 0px 8px;
+      }
+    }
+
+    .login_forms {
+      padding: 0 20px 0 20px;
+      background-color: #FFFFFF;
+      border: 1px solid #E0E0E0;
+
+      .form-control {
+        font-size: 13px;
+      }
+
+      Button, button {
+        width: 100%;
+        margin-bottom: 1rem;
+
+        .text {
+          font-size: 13px;
+          line-height: 10px;
+        }
+      }
+
+      .mock-button {
+        font-size: 10px;
+      }
+
+      #daftar-text {
+        font-size: 13px;
+        margin-bottom: 1rem;
+      }
+    }
+
+  }
+}

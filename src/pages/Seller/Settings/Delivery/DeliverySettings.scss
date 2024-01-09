@@ -1,0 +1,16 @@
+.courier_box{
+    padding-top: 1.5rem!important;
+    padding-bottom: 1.5rem!important;
+    padding: 1rem!important;
+    align-items: center!important;
+    display: flex!important;
+    justify-content: space-between!important;
+}
+.courier_box:not(:last-child){
+    border-bottom: 1px solid #dee2e6!important;
+}
+
+.delivery_type_couriers{
+    border-radius: 0.25rem!important;
+    border: 1px solid #dee2e6!important;
+}
